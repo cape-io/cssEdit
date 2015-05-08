@@ -1,3 +1,12 @@
 bk:
-  url: bkhealing.ezle.io
+  url: http://bkhealing.ezle.io
   layout: fbpl-bgbleed
+bkb:
+  url: http://bkhealing.ezle.io
+  layout: ookb-style
+cape:
+  url: https://www.cape.io
+  layout: cape-style
+ookb:
+  url: http://test.ookb.co
+  layout: ookb-style

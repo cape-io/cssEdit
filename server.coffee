@@ -26,7 +26,7 @@ module.exports = (url, layout, home) ->
     reply.proxy {
       passThrough: true
       mapUri: (req, cb) ->
-        uri = 'http://'+url+request.url.path
+        uri = url+request.url.path
         cb(null, uri)
     }
 
