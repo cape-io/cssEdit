@@ -11,11 +11,6 @@ module.exports = (url, layout, home, repo) ->
         override: false
   }
 
-  SECOND = 1000
-  MINUTE = 60 * SECOND
-  HOUR = 60 * MINUTE
-  DAY = 86399999
-
   server.route
     method: 'GET'
     path: '/repo'
