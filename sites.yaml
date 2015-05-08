@@ -1,12 +1,16 @@
 bk:
   url: http://bkhealing.ezle.io
   layout: fbpl-bgbleed
+  repo: https://github.com/cape-io/fbpl-bgbleed
 bkb:
   url: http://bkhealing.ezle.io
   layout: ookb-style
+  repo: https://github.com/ookb/ookb-style
 cape:
   url: https://www.cape.io
   layout: cape-style
+  repo: https://github.com/cape-io/cape-style
 ookb:
   url: http://test.ookb.co
   layout: ookb-style
+  repo: https://github.com/ookb/ookb-style

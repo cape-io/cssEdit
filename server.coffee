@@ -1,6 +1,6 @@
 Hapi = require 'hapi'
 
-module.exports = (url, layout, home) ->
+module.exports = (url, layout, home, repo) ->
   server = new Hapi.Server {}
 
   server.connection {
@@ -15,6 +15,12 @@ module.exports = (url, layout, home) ->
   MINUTE = 60 * SECOND
   HOUR = 60 * MINUTE
   DAY = 86399999
+
+  server.route
+    method: 'GET'
+    path: '/repo'
+    handler: (request, reply) ->
+      reply.redirect(repo).code(302)
 
   server.route
     method: 'GET'

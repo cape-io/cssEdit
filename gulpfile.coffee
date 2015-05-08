@@ -17,7 +17,7 @@ unless sites[site] and sites[site].url and sites[site].layout
   console.error site+' is not in sites.yaml or does not have url and layout defined.'
   console.log sites
   return
-{url, layout} = sites[site]
+{url, layout, repo} = sites[site]
 
 # Gulp Utils
 gulp = require 'gulp'
@@ -27,7 +27,7 @@ less = require 'gulp-less'
 browserSync = require 'browser-sync'
 
 home = process.env['HOME']
-require('./server')(url, layout, home)
+require('./server')(url, layout, home, repo)
 
 cssReload = ->
   browserSync.reload("*.css")
