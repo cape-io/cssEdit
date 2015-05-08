@@ -7,8 +7,10 @@
 ## Configure
 1. `cd cssEdit`
 1. `open sites.yaml`
-The sites.yaml file is just an object where each root key is a site id with two properties. `url` is the remote url to proxy. `layout` is the directory name of the local layout to use.
-If the local layout files are not found it will use the ones on the remote server.
+The sites.yaml file is just an object where each root key is a site id with two properties.
+  * `url` is the remote url to proxy.
+  * `layout` is the directory name of the local layout to use. If the local layout files are not found it will use the ones on the remote server.
+  * `repo` will redirect to that url when visiting /repo 
 
 ## Run
 
