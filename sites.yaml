@@ -34,3 +34,7 @@ cgl:
   url: http://cars.ezle.io
   layout: fbpl-gt-lite
   repo: https://github.com/cape-io/fbpl-gt-lite
+rs:
+  url: http://rohrerstudio.ezle.io
+  layout: rohrer-studio
+  repo: https://github.com/cape-io/rohrer-studio
