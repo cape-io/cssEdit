@@ -6,11 +6,31 @@ bkb:
   url: http://bkhealing.ezle.io
   layout: ookb-style
   repo: https://github.com/ookb/ookb-style
+bkgl:
+  url: http://bkhealing.ezle.io
+  layout: fbpl-gt-lite
+  repo: https://github.com/cape-io/fbpl-gt-lite
 cape:
   url: https://www.cape.io
   layout: cape-style
   repo: https://github.com/cape-io/cape-style
+capebleed:
+  url: https://www.cape.io
+  layout: fbpl-bgbleed
+  repo: https://github.com/cape-io/fbpl-bgbleed
 ookb:
   url: http://test.ookb.co
   layout: ookb-style
   repo: https://github.com/ookb/ookb-style
+ckb:
+  url: http://cars.ezle.io
+  layout: ookb-style
+  repo: https://github.com/ookb/ookb-style
+cbleed:
+  url: http://cars.ezle.io
+  layout: fbpl-bgbleed
+  repo: https://github.com/cape-io/fbpl-bgbleed
+cgl:
+  url: http://cars.ezle.io
+  layout: fbpl-gt-lite
+  repo: https://github.com/cape-io/fbpl-gt-lite
