@@ -38,3 +38,7 @@ rs:
   url: http://rohrerstudio.ezle.io
   layout: rohrer-studio
   repo: https://github.com/cape-io/rohrer-studio
+ookb-rs:
+  url: http://test.ookb.co
+  layout: rohrer-studio
+  repo: https://github.com/cape-io/rohrer-studio
