@@ -43,14 +43,14 @@ ookb-rs:
   layout: rohrer-studio
   repo: https://github.com/cape-io/rohrer-studio
 acf:
-  url: http://acf.cape.io/
+  url: http://acf.cape.io
   layout: acf-style
   repo: https://github.com/OOKB/acf-style
 acf-cape:
-  url: http://acf.cape.io/
+  url: http://acf.cape.io
   layout: cape-style
   repo: https://github.com/cape-io/cape-style
 bbg:
-  url: http://dev.bmorebarguild.com/
+  url: http://dev.bmorebarguild.com
   layout: bbg-style
   repo: https://github.com/OOKB/bbg-style
