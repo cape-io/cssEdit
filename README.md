@@ -3,6 +3,7 @@
 ## Install
 1. `cd ~/Sites/layouts`
 1. `git clone git@github.com:cape-io/cssEdit.git`
+2. `npm install`
 
 ## Configure
 1. `cd cssEdit`
