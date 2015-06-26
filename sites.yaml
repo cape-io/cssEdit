@@ -54,3 +54,12 @@ bbg:
   url: http://dev.bmorebarguild.com
   layout: bbg-style
   repo: https://github.com/OOKB/bbg-style
+green-acres:
+  url: http://green-acres.ezle.io
+  layout: green-acres-style
+  repo: https://github.com/OOKB/green-acres-style
+hg:
+  url: http://dev.shophuntingground.com/
+  layout: hg-style
+  repo: https://github.com/OOKB/hg-style
+
