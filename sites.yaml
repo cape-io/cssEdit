@@ -59,7 +59,11 @@ green-acres:
   layout: green-acres-style
   repo: https://github.com/OOKB/green-acres-style
 hg:
-  url: http://dev.shophuntingground.com/
+  url: http://dev.shophuntingground.com
   layout: hg-style
   repo: https://github.com/OOKB/hg-style
+urb:
+  url: http://urbaniterises.ezle.io
+  layout: urbanite-style
+  repo: https://github.com/OOKB/urbanite-style
 
